@@ -1,30 +1,33 @@
 import org.apache.log4j.Logger;
 
 /**
- * Created by cloudwick on 10/13/16.
+ * Created by AshokKumarChoppadandi on 10/13/16.
  */
 public class Log4jExample {
     final static Logger logger = Logger.getLogger(Log4jExample.class);
+
+    /**
+     * @param args - Command Line Arguments
+     */
     public static void main(String[] args) {
 
         Log4jExample example = new Log4jExample();
-        example.run("Ashok");
-        //logger.debug("Hello This is a Debug Message");
-        //logger.info("Hello This is an Info Message");
+        example.run("TEST");
     }
 
-    private void run(String ashok) {
+    /**
+     * @param str - Method takes one argument of type String with the 'str'
+     */
+    private void run(String str) {
         if(logger.isDebugEnabled()){
-            logger.debug("Hello " + ashok + ", This is a DEBUG Message");
+            logger.debug("Hello " + str + ", This is a DEBUG Message");
         }
         if(logger.isInfoEnabled()){
-            logger.info("Hello " + ashok + ", This is a INFO Message");
+            logger.info("Hello " + str + ", This is a INFO Message");
         }
-
-        logger.warn(ashok + " this is a WARN message");
-        logger.error(ashok + " this is a ERROR message");
-        logger.fatal(ashok + " this is a FATAL message");
-
+        logger.warn(str + " this is a WARN message");
+        logger.error(str + " this is a ERROR message");
+        logger.fatal(str + " this is a FATAL message");
         for(int i = 0 ; i < 5 ; i++){
             logger.info("Message :: " + i);
         }

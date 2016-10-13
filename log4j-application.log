@@ -18,3 +18,13 @@
 2016-10-13 13:11:22 INFO  Log4jExample:29 - Message :: 2
 2016-10-13 13:11:22 INFO  Log4jExample:29 - Message :: 3
 2016-10-13 13:11:22 INFO  Log4jExample:29 - Message :: 4
+2016-10-13 13:20:33 DEBUG Log4jExample:23 - Hello TEST, This is a DEBUG Message
+2016-10-13 13:20:33 INFO  Log4jExample:26 - Hello TEST, This is a INFO Message
+2016-10-13 13:20:33 WARN  Log4jExample:28 - TEST this is a WARN message
+2016-10-13 13:20:33 ERROR Log4jExample:29 - TEST this is a ERROR message
+2016-10-13 13:20:33 FATAL Log4jExample:30 - TEST this is a FATAL message
+2016-10-13 13:20:33 INFO  Log4jExample:32 - Message :: 0
+2016-10-13 13:20:33 INFO  Log4jExample:32 - Message :: 1
+2016-10-13 13:20:33 INFO  Log4jExample:32 - Message :: 2
+2016-10-13 13:20:33 INFO  Log4jExample:32 - Message :: 3
+2016-10-13 13:20:33 INFO  Log4jExample:32 - Message :: 4
