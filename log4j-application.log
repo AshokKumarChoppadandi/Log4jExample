@@ -1,0 +1,20 @@
+2016-10-13 13:11:10 DEBUG Log4jExample:18 - Hello Ashok, This is a DEBUG Message
+2016-10-13 13:11:10 INFO  Log4jExample:21 - Hello Ashok, This is a INFO Message
+2016-10-13 13:11:10 WARN  Log4jExample:24 - Ashok this is a WARN message
+2016-10-13 13:11:10 ERROR Log4jExample:25 - Ashok this is a ERROR message
+2016-10-13 13:11:10 FATAL Log4jExample:26 - Ashok this is a FATAL message
+2016-10-13 13:11:10 INFO  Log4jExample:29 - Message :: 0
+2016-10-13 13:11:10 INFO  Log4jExample:29 - Message :: 1
+2016-10-13 13:11:10 INFO  Log4jExample:29 - Message :: 2
+2016-10-13 13:11:10 INFO  Log4jExample:29 - Message :: 3
+2016-10-13 13:11:10 INFO  Log4jExample:29 - Message :: 4
+2016-10-13 13:11:22 DEBUG Log4jExample:18 - Hello Ashok, This is a DEBUG Message
+2016-10-13 13:11:22 INFO  Log4jExample:21 - Hello Ashok, This is a INFO Message
+2016-10-13 13:11:22 WARN  Log4jExample:24 - Ashok this is a WARN message
+2016-10-13 13:11:22 ERROR Log4jExample:25 - Ashok this is a ERROR message
+2016-10-13 13:11:22 FATAL Log4jExample:26 - Ashok this is a FATAL message
+2016-10-13 13:11:22 INFO  Log4jExample:29 - Message :: 0
+2016-10-13 13:11:22 INFO  Log4jExample:29 - Message :: 1
+2016-10-13 13:11:22 INFO  Log4jExample:29 - Message :: 2
+2016-10-13 13:11:22 INFO  Log4jExample:29 - Message :: 3
+2016-10-13 13:11:22 INFO  Log4jExample:29 - Message :: 4
